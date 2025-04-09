@@ -71,7 +71,7 @@ The level generation process adheres to the required three stages:
 *(Replace these placeholders with your actual screenshots)*
 
 `[Image: Example of a generated cave map mesh in the Game View]`
-![Logo](./Assets/Images/Screenshot%202025-04-09%20003304.png)
+
 *Caption: Typical output showing the generated cave mesh.*
 
 `[Image: Scene view showing Gizmo visualization of the map grid (black=wall, white=floor)]`
