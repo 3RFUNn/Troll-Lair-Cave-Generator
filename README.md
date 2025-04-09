@@ -71,6 +71,7 @@ The level generation process adheres to the required three stages:
 *(Replace these placeholders with your actual screenshots)*
 
 `[Image: Example of a generated cave map mesh in the Game View]`
+![Logo](./Assets/Images/Screenshot%202025-04-09%20003304.png)
 *Caption: Typical output showing the generated cave mesh.*
 
 `[Image: Scene view showing Gizmo visualization of the map grid (black=wall, white=floor)]`
@@ -99,8 +100,8 @@ The level generation process adheres to the required three stages:
 
 ## Technical Details
 
-*   **Unity Version Used:** Unity Version 6 (Build 42) *(Self-note: As discussed, this version string is unusual. Confirm if this is accurate or if it should refer to the assessment's base requirement)*
-*   **Base Project Requirement:** This project is based on the "Generator" project provided on QMPlus, which uses Unity 2023.1. While development occurred in the version listed above, compatibility with 2023.1 principles was maintained where possible.
+*   **Unity Version Used:** Unity 6000.0.42
+*   **Base Project Requirement:** This project is based on the "Generator" project provided on QMPlus, which was designed for Unity 2023.1. While development occurred in the version listed above, care was taken to adhere to the structure and principles expected based on the 2023.1 project foundation.
 
 ## Code Generation and Reuse
 
