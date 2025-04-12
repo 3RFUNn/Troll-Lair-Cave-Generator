@@ -69,8 +69,7 @@ The level generation process adheres to the required three stages:
 ## Generated Output Examples
 
 
-![1](./Images/3.png)
-
+![1](./Images/3.png) <br>
 *Caption1: Image of insepctor with settings* <br><br>
 
 ![2](./Images/1.png)
