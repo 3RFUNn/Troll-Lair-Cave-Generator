@@ -83,7 +83,7 @@ The level generation process adheres to the required three stages:
 
 ![1](./Images/6.png)
 ![1](./Images/7.png) <br>
-*Caption: OnDrawGizmos with `visualizeRegions` enabled, showing distinct floor areas colored differently.* <br><br>
+*Caption4: OnDrawGizmos with `visualizeRegions` enabled, showing distinct floor areas colored differently.* <br><br>
 
 `[Image: Scene view showing Gizmo visualization with Agents enabled]`
 *Caption: OnDrawGizmos showing agents (red spheres) spawned on floor tiles.*
