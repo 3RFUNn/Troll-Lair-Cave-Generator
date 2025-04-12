@@ -90,7 +90,7 @@ The level generation process adheres to the required three stages:
 
 ![1](./Images/8.png)
 ![1](./Images/9.png) <br>
-*Caption: OnDrawGizmos showing agents (red spheres) spawned on floor tiles.* <br><br>
+*Caption5: OnDrawGizmos showing agents (red spheres) spawned on floor tiles.* <br><br>
 
 `[Image: Console output showing the Map Analysis results]`
 *Caption: Example console log displaying the floor space percentage.*
