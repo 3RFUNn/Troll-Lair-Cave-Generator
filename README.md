@@ -72,9 +72,11 @@ The level generation process adheres to the required three stages:
 ![1](./Images/3.png) <br>
 *Caption1: Image of insepctor with settings* <br><br>
 
+
 ![2](./Images/1.png)
 ![3](./Images/2.png)
 *Caption2: Typical output showing the generated cave mesh.* <br><br>
+
 
 ![4](./Images/4.png)
 ![5](./Images/5.png) <br>
@@ -85,8 +87,10 @@ The level generation process adheres to the required three stages:
 ![1](./Images/7.png) <br>
 *Caption4: OnDrawGizmos with `visualizeRegions` enabled, showing distinct floor areas colored differently.* <br><br>
 
-`[Image: Scene view showing Gizmo visualization with Agents enabled]`
-*Caption: OnDrawGizmos showing agents (red spheres) spawned on floor tiles.*
+
+![1](./Images/8.png)
+![1](./Images/9.png) <br>
+*Caption: OnDrawGizmos showing agents (red spheres) spawned on floor tiles.* <br><br>
 
 `[Image: Console output showing the Map Analysis results]`
 *Caption: Example console log displaying the floor space percentage.*

@@ -369,7 +369,7 @@ MonoBehaviour:
   height: 70
   seed: 100
   useRandomSeed: 1
-  randomFillPercent: 46
+  randomFillPercent: 48
   smoothingIterations: 5
   wallThresholdSize: 22
   roomThresholdSize: 26
@@ -377,7 +377,7 @@ MonoBehaviour:
   passageRadius: 1
   borderSize: 5
   enableAgents: 1
-  numberOfAgents: 3
+  numberOfAgents: 5
   agentMoveChance: 0.02
   visualizeRegions: 1
   visualizeAgents: 1
