@@ -74,10 +74,11 @@ The level generation process adheres to the required three stages:
 
 ![2](./Images/1.png)
 ![3](./Images/2.png)
-*Caption2: Typical output showing the generated cave mesh.*
+*Caption2: Typical output showing the generated cave mesh.* <br><br>
 
-`[Image: Scene view showing Gizmo visualization of the map grid (black=wall, white=floor)]`
-*Caption: OnDrawGizmos showing the raw grid data (GameObject selected).*
+![4](./Images/4.png)
+![5](./Images/5.png)
+*Caption3: OnDrawGizmos showing the raw grid data (GameObject selected).*
 
 `[Image: Scene view showing Gizmo visualization with Regions enabled]`
 *Caption: OnDrawGizmos with `visualizeRegions` enabled, showing distinct floor areas colored differently.*
