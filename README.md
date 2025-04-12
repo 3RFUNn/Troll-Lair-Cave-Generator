@@ -83,17 +83,18 @@ The level generation process adheres to the required three stages:
 *Caption3: OnDrawGizmos showing the raw grid data (GameObject selected).* <br><br>
 
 
-![1](./Images/6.png)
-![1](./Images/7.png) <br>
+![6](./Images/6.png)
+![7](./Images/7.png) <br>
 *Caption4: OnDrawGizmos with `visualizeRegions` enabled, showing distinct floor areas colored differently.* <br><br>
 
 
-![1](./Images/8.png)
-![1](./Images/9.png) <br>
+![8](./Images/8.png)
+![9](./Images/9.png) <br>
 *Caption5: OnDrawGizmos showing agents (red spheres) spawned on floor tiles.* <br><br>
 
-`[Image: Console output showing the Map Analysis results]`
-*Caption: Example console log displaying the floor space percentage.*
+
+![10](./Images/10.png) <br>
+*Caption6: Example console log displaying the floor space percentage.* <br><br>
 
 ## How to Use
 
