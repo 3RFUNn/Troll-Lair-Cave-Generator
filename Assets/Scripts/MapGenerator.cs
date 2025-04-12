@@ -145,7 +145,9 @@ public class MapGenerator : MonoBehaviour
             }
         }
 
-        // --- Optional: Visualize Room Connections ---
+        
+        
+        // Visualize Room Connections ---
         if (connectClosestRooms && survivingRoomsForVisualization != null) {
             Gizmos.color = Color.cyan;
             foreach (Room room in survivingRoomsForVisualization) {
@@ -158,7 +160,9 @@ public class MapGenerator : MonoBehaviour
                 }
             }
         }
-        // --- End Optional ---
+        
+        
+        
     }
 
     // Helper to convert map coords to world position for Gizmos
@@ -314,9 +318,6 @@ public class MapGenerator : MonoBehaviour
         List<List<Coord>> wallRegions = GetAllRegions(1); // Get all wall regions
         foreach (List<Coord> region in wallRegions)
         {
-            // Store for visualization BEFORE removal
-            // (Only useful if you specifically want to see removed wall regions)
-            // if (visualizeRegions) regionsToVisualize.Add(new List<Coord>(region));
 
             if (region.Count < wallThresholdSize)
             {
@@ -355,7 +356,7 @@ public class MapGenerator : MonoBehaviour
             }
         }
 
-        // --- 3. Optional: Connect Surviving Rooms ---
+        // --- Connect Surviving Rooms ---
         if (connectClosestRooms && survivingRoomsForVisualization.Count > 1)
         {
             ConnectClosestRooms(survivingRoomsForVisualization);
@@ -448,7 +449,7 @@ public class MapGenerator : MonoBehaviour
         return tiles;
     }
 
-    // --- Optional Room Connection Logic ---
+    // --- Room Connection Logic ---
 
     void ConnectClosestRooms(List<Room> allRooms, bool forceAccessibilityFromMainRoom = false) {
 		List<Room> roomListA = new List<Room> ();
@@ -524,8 +525,8 @@ public class MapGenerator : MonoBehaviour
 
     void CreatePassage(Room roomA, Room roomB, Coord tileA, Coord tileB) {
 		Room.ConnectRooms (roomA, roomB);
-        // Debug.Log ("Connecting " + roomA.roomTiles.Count + " to " + roomB.roomTiles.Count + " via " + tileA.tileX + "," + tileA.tileY + " and " + tileB.tileX + "," + tileB.tileY);
-
+       
+        
 		// Use Bresenham's line algorithm to draw the passage
         List<Coord> line = GetLine(tileA, tileB);
         foreach(Coord c in line) {

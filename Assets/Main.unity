@@ -373,7 +373,14 @@ MonoBehaviour:
   smoothingIterations: 5
   wallThresholdSize: 22
   roomThresholdSize: 26
+  connectClosestRooms: 0
+  passageRadius: 1
   borderSize: 5
+  enableAgents: 1
+  numberOfAgents: 3
+  agentMoveChance: 0.02
+  visualizeRegions: 1
+  visualizeAgents: 1
 --- !u!4 &723202080
 Transform:
   m_ObjectHideFlags: 0

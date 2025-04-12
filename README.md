@@ -68,10 +68,12 @@ The level generation process adheres to the required three stages:
 
 ## Generated Output Examples
 
-*(Replace these placeholders with your actual screenshots)*
 
-`[Image: Example of a generated cave map mesh in the Game View]`
+![1](./Images/3.png)
+*Caption: Image of insepctor with settings*
 
+![2](./Images/1.png)
+![3](./Images/2.png)
 *Caption: Typical output showing the generated cave mesh.*
 
 `[Image: Scene view showing Gizmo visualization of the map grid (black=wall, white=floor)]`
@@ -126,6 +128,4 @@ The development of this project involved utilizing and adapting code from severa
             *   Region visualization logic within `OnDrawGizmos` (coloring identified floor regions).
             *   Map analysis logic (`AnalyzeMap`).
         *   Refining and debugging existing code segments (e.g., ensuring correct map bounds checks, optimizing loops where suggested).
-        *   Generating helper methods like `GetWorldPosition`.
-        *   Generating this README.md file based on the code and requirements provided.
-    *   The AI was provided with the base code, the assessment requirements, the design brief, and specific requests for feature implementation or code modification. The final code is a result of this iterative process.
+        
