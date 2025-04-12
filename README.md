@@ -75,8 +75,6 @@ The level generation process adheres to the required three stages:
 
 ![2](./Images/1.png)
 ![3](./Images/2.png)
-
-
 *Caption2: Typical output showing the generated cave mesh.*
 
 `[Image: Scene view showing Gizmo visualization of the map grid (black=wall, white=floor)]`
