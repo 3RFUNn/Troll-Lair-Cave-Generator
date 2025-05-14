@@ -1,4 +1,4 @@
-## Erfan Rafieioskouei - Student ID: 240842587
+## Erfan Rafieioskouei
 
 # Troll Lair - Procedural Cave Generator
 
